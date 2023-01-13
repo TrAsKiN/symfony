@@ -1,0 +1,9 @@
+http:
+    no_tls: true
+    daemon: true
+workers:
+    docker_compose_up_build:
+        cmd: ['docker', 'compose', 'up', '--build']
+    yarn_encore_dev_server:
+        cmd: ['yarn', 'encore', 'dev-server']
+    messenger_consume_async: ~
