@@ -20,7 +20,3 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
-
-/.yarn/
-.pnp.cjs
-.pnp.loader.mjs
