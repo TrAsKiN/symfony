@@ -12,3 +12,7 @@
 
 1. `symfony composer install --optimize-autoloader`
 2. `symfony run yarn install`
+
+## Run local dev server
+
+- `symfony server:start`
