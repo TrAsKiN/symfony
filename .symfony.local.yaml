@@ -4,6 +4,5 @@ http:
 workers:
     docker_compose_up_build:
         cmd: ['docker', 'compose', 'up', '--build']
-    yarn_encore_dev_server:
-        cmd: ['yarn', 'encore', 'dev-server']
+    yarn_encore_watch: ~
     messenger_consume_async: ~
